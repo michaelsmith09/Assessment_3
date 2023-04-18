@@ -1,0 +1,87 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid red;
+}
+
+content {
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 270px;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	/* width: 300px; */
+	display: inline;
+	
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	border-radius: 20%;
+}
+
+button, .btn{
+	padding: 5px;
+	margin: 5px;
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+button:hover, .btn:hover{
+	cursor: pointer;
+	box-shadow: 0 0 15px black;
+}
+
+button:active, .btn:active{
+	transform: translateY(4px);
+}
+
+.checkbox{
+	display:flex;
+	margin:5px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* width: 470px; */
+}
